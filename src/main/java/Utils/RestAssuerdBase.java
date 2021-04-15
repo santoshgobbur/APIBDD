@@ -13,7 +13,7 @@ import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 
 
-
+// hooks
 
 public class RestAssuerdBase extends Utils1 {
 	
