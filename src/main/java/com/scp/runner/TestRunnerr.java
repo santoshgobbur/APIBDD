@@ -7,14 +7,15 @@ import cucumber.api.junit.Cucumber;
 
     @RunWith(Cucumber.class)
 	@CucumberOptions(
-	 features = "Features/GetCall.feature",
-	 glue="Steps",
+	 features = "Features/Get.feature",
+	 glue="com.scp.stepDef",
+//	 tags="@Sanity",
 //	 dryRun=true,
 //	 strict=true,
 	 monochrome=true
 	 )
 	 
-	public class TestRunner {
+	public class TestRunnerr {
 	 
 	
 	}

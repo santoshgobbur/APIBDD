@@ -2,7 +2,6 @@ package Steps;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -31,7 +30,7 @@ public class Getstpes {
 	@When("^user perform get operation \"([^\"]*)\"$")
 	public void user_perform_get_operation(String url){
 	  
-		response = RestAssuerdBase.Get(url);
+		//response = RestAssuerdBase.Get(url);
 	}
 	
 	@Then("^user verify get api call with succcess code (\\d+)$")
@@ -81,9 +80,7 @@ public class Getstpes {
 			
 			//System.out.println(ids);
 			//Assert.assertEquals(ids,str);
-			
-			
-	      
+		   
 		
 		}
 		

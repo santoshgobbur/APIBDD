@@ -6,10 +6,6 @@ Feature: Get call operation
  Then user verify get api call with succcess code 200
  And user verify limit is 10
 
-
- 
- 
- 
  #Scenario: Test GET request by query parameters
  #
  #When user perform get with queryparaneter "limit&skip"
